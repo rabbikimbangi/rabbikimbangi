@@ -26,21 +26,17 @@ Détection de véhicules, motos et piétons à l’aide de **YOLOv11**, calcul d
 
 ---
 
-### 🏥 Système de Suivi Médical Intelligent (SSMI)
-Plateforme web complète pour la **gestion des dossiers médicaux** et la **détection précoce d’épidémies**.  
-Inclut quatre modules IA :  
-1. Score de risque patient  
-2. Analyse par tranche d’âge  
-3. Analyse géographique des maladies  
-4. Prédiction d’épidémies et génération de rapports automatiques  
-
-**Stack :** Django · Scikit-learn · PostgreSQL · Chart.js · HTML/CSS  
-**Impact :** aide à la décision pour les autorités de santé publique et amélioration du diagnostic médical  
-
-🔗 *Voir le projet (à venir)*  
+### 🏥 Système de Suivi Médical Intelligent  
+Plateforme complète de gestion de dossiers médicaux intégrant *4 modules d'IA* :  
+- Prédiction du risque patient  
+- Analyse épidémiologique par âge et localisation  
+- Détection de foyers de maladies  
+- Prévision de tendances sur 30 jours  
+*Stack :* Django 5.1.4, Scikit-learn, PostgreSQL, Chart.js  
+*Impact :* Aide à la décision médicale et recherche en santé publique  
+🔗 [Voir le projet](https://github.com/wenrid/Systeme-de-Suivi-Medical-Intelligent)
 
 ---
-
 ### 🔤 Segmentation intelligente de lettres colorées (TP OpenCV)
 Conception d’une chaîne complète de traitement d’images pour segmenter automatiquement des lettres **A (orange)**, **B (verte)** et **C (bleue)**.  
 Méthode 100 % automatique combinant filtrage médian, seuillage HSV et opérations morphologiques.
