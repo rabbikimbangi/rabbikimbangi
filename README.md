@@ -37,6 +37,30 @@ Plateforme complète de gestion de dossiers médicaux intégrant *4 modules d'IA
 🔗 [Voir le projet](https://github.com/wenrid/Systeme-de-Suivi-Medical-Intelligent)
 
 ---
+---
+
+### 📜 Numérisation Automatique des Actes de Naissance — RDC  
+*Pipeline OCR end-to-end pour les documents administratifs manuscrits congolais*
+
+Développement d'un pipeline complet de reconnaissance optique de caractères (OCR) 
+spécifiquement adapté aux actes de naissance manuscrits de la République Démocratique 
+du Congo. Le système transforme automatiquement une image scannée en document Word 
+structuré exportable, avec extraction des 40 champs officiels du certificat.
+
+*Contributions clés :*
+- Construction d'un dataset annoté de 300 certificats
+- Fine-tuning de LightOnOCR-2-1B sur le domaine spécifique RDC
+- Post-correction par 40 règles regex adaptées à l'onomastique congolaise
+- Interface Streamlit avec base SQLite et export Word
+
+*Performances :* F1-Score = 93,7% · CER = 10,95% · Recall = 96,0%  
+*Stack :* Python, HuggingFace Transformers, Streamlit, SQLite, python-docx  
+*Impact :* Préservation du patrimoine documentaire 
+de la RDC et modernisation de l'administration de l'état civil 
+
+🔗 [Voir le projet](https://github.com/wenrid/ocr-actes-naissance-rdc)
+
+---
 ### 🔤 Segmentation intelligente de lettres colorées (TP OpenCV)
 Conception d’une chaîne complète de traitement d’images pour segmenter automatiquement des lettres **A (orange)**, **B (verte)** et **C (bleue)**.  
 Méthode 100 % automatique combinant filtrage médian, seuillage HSV et opérations morphologiques.
